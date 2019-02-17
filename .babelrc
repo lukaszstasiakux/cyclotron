@@ -1,0 +1,17 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    
+    ["styled-components",
+      {
+        "displayName": true,
+        "ssr": false
+      }],
+    "transform-class-properties",
+    "transform-object-rest-spread"
+    
+  ]
+}

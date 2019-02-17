@@ -1,0 +1,47 @@
+{
+  "name": "cyclotron",
+  "version": "1.0.0",
+  "description": "\\",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "lukasz.stasiak@lensflare.pl",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-styled-components": "^1.10.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "extract-text-webpack-plugin": "3.0.0",
+    "history": "4.7.2",
+    "material-design-icons": "^3.0.1",
+    "moment": "2.18.1",
+    "node-sass": "4.5.3",
+    "normalize.css": "7.0.0",
+    "numeral": "2.0.6",
+    "oauth-1.0a": "^2.2.5",
+    "react": "16.2.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-dates": "12.7.0",
+    "react-dom": "16.2.0",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.2.2",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "styled-components": "^3.3.3",
+    "validator": "8.0.0",
+    "webpack": "3.1.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.5.1"
+  }
+}
