@@ -85,6 +85,21 @@ export const FolderWrapper = styled.div`
   display:flex;
   flex-wrap:wrap;
   margin-bottom:10px;
-  
+`
+export const HowUse = styled.div`
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  width:100%;
+  padding-bottom:5px;
+  text-align:center;
+  a{
+    color:#5fb7d4;
+    font-size:14px;
+  }
+  a:visited{
+    color:#5fb7d4;
+  }
 `
 

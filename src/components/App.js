@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
 import axios from 'axios';
-import {PageWrapper,Console,Line,Input,Button,FolderWrapper} from './Components';
+import {PageWrapper,Console,Line,Input,Button,FolderWrapper,HowUse} from './Components';
 import Loader from './Loader';
 import Folder from './Folder'
 import {oauth_verifier,oauth_tokens,get_access_token,setLocalStorage,resetData,getFolderName,setFolderProps,setCompleteFolder} from './heloper';
@@ -456,6 +456,9 @@ class App extends React.Component {
             </Fragment>
           }
         </Console>
+        <HowUse>
+          <a href="http://lensflare.pl/cyclotron/" target="_blank">How to use it</a> / <a href="https://github.com/lukaszstasiakux/cyclotron" target="_blank"> github </a>
+        </HowUse>
       </PageWrapper>
 
     )

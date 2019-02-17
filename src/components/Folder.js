@@ -68,7 +68,7 @@ class Folder extends React.Component{
     return(
       <FolderBox select={selected} onClick={(e)=>(this.toogleSelection(e))}>
         <FolderBox_Title>{display}</FolderBox_Title>
-        <FolderBox_Count>{count} photos</FolderBox_Count>
+        <FolderBox_Count>{count} items</FolderBox_Count>
         { status=="downloaded" &&
           <FolderBox_Icon className="material-icons" title="Already downloaded">
             check_circle
